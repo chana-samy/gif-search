@@ -4,7 +4,10 @@ import './index.css';
 import {GiftSearchApp} from './GiftSearchApp';
 
 ReactDOM.render(
-    <GiftSearchApp />,
+    <React.StrictMode>
+    <GiftSearchApp />
+  </React.StrictMode>
+    ,
     document.getElementById('root')
 
 );
